@@ -21,10 +21,7 @@
   },
   "homepage": "https://github.com/gminova/weather-app#readme",
   "dependencies": {
-<<<<<<< HEAD
-=======
     "ejs": "^2.6.1",
->>>>>>> master
     "express": "^4.16.4"
   }
 }
