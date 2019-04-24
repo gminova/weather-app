@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "simple weather app website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gminova/weather-app.git"
+  },
+  "keywords": [
+    "weather-app"
+  ],
+  "author": "G.Minova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gminova/weather-app/issues"
+  },
+  "homepage": "https://github.com/gminova/weather-app#readme"
+}
