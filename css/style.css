@@ -1,3 +1,22 @@
 .ghost-button {
   color: rgb(18, 27, 24);
 }
+
+p {
+    color: rgb(158, 15, 15);
+}
+
+body {
+    font-family: "Comic Sans", sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+fieldset {
+    color: aqua;
+}
