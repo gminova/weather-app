@@ -12,7 +12,7 @@ This is a simple Weather App that works in English done as a joint project follo
 1. OpenWeatherMap.org API
 2. Node.js 
 
-![Alt Text](https://gminova.github.io/img/proj9.jpg)  
+![Alt Text]()  
 
 ## Features
 
