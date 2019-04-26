@@ -23,9 +23,9 @@ This is a simple Weather App that works in English done as a joint project follo
 2. Display weather 
 ```
 
-## Extention
+## Extension
 ```
-Real time clock showing the local time of the user.
+Real-time clock showing the local time of the user.
 ```
 
 ## Reference
