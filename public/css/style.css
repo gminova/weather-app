@@ -1,11 +1,17 @@
 
+
 body {
+    background-image: url("happyweather.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    text-align: center;
+    background-color: aquamarine;
     width: 800px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
   }
   .container {
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
   }
   fieldset {
@@ -36,9 +42,10 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #4b545f;
+    color: #232c38;
     background: #fff;
-    font-family: Open Sans,Verdana;
+    font-family: Open 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,Verdana;
+    text-align: center;
     padding: 10px 15px;
     margin: 30px 0px;
     -webkit-transition: all 0.1s ease-in-out;
@@ -66,6 +73,6 @@ body {
     border:2px solid #515151;
   }
   p {
-    color: #E64A19;
+    color: #157218;
   }
   

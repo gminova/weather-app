@@ -2,15 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express()
-const port = process.env.PORT || 3000;
+/* const port = process.env.PORT || 3000; */
 
-<<<<<<< HEAD
-/*THE KEY IS WRONG*/
-const apiKey = '52f6b692a22fef84ed044fbb82c6bbe8';
-=======
 
 const apiKey = 'e6884c3b42dc67cf16d20cf6a2ded3ca';
->>>>>>> master
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -40,6 +35,7 @@ app.post('/', function (req, res) {
   });
 })
 
-app.listen(port, function () {
+app.listen(3000, function ()
+/*app.listen(port, function () */ {
   console.log('Example app listening on port!')
 })
