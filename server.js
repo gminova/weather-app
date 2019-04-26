@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express()
-/* const port = process.env.PORT || 3000; */
+const port = process.env.PORT || 3000;
 
 
 const apiKey = 'e6884c3b42dc67cf16d20cf6a2ded3ca';
@@ -35,7 +35,7 @@ app.post('/', function (req, res) {
   });
 })
 
-app.listen(3000, function ()
-/*app.listen(port, function () */ {
+/*app.listen(3000, function ()*/
+app.listen(port, function () {
   console.log('Example app listening on port!')
 })

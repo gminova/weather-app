@@ -2,12 +2,12 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "simple weather app website",
- /* "main": "server.js", */
-  "main": "index.js"
+ /*"main": "server.js"*/
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    /* "start": "node server.js", */
-    "start": "node index.js",
+    "start": "node server.js",
+    /*"start": "node index.js",*/
     "build": "webpack -w"
   },
   "repository": {
