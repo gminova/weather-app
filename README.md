@@ -4,7 +4,7 @@ This is a simple Weather App that works in English done as a joint project follo
 
 ##Team
 
-1. Dergana Minova
+1. Gergana Minova
 2. Emil Vaklinov
 
 ## Prerequisites
