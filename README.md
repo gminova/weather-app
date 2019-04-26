@@ -1,6 +1,6 @@
 # Website => https://app-get-weather.herokuapp.com/
 
-This is a simple Weather App that works in English done as a joint project following a tutorial linked in the reference at the bottom of this file. The goal is to work as a team and have fun while learning something new.This app utilises Node JS, Express, Scrum, Atom/VisualStudio, Git, and Heroku CI. 
+This is a simple Weather App that works in Fahrenheit. It was created as a joint project following a tutorial linked in the references below. Our goal was to work as a team and have fun, while learning something new. This app utilises Node JS, Express, a weather API, Scrum, Atom/VisualStudio, Git, and Heroku CI. 
 
 ##Team
 
@@ -28,6 +28,7 @@ This is a simple Weather App that works in English done as a joint project follo
 Real-time clock showing the local time of the user.
 ```
 
-## Reference
+## References
 
 https://codeburst.io/build-a-weather-website-in-30-minutes-with-node-js-express-openweather-a317f904897b 
+https://openweathermap.org/api
