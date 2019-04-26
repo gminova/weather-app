@@ -2,16 +2,15 @@
 
 body {
     background-image: url("happyweather.jpg");
-    background-repeat: no-repeat, repeat;
-    background-size: auto;
+    width: 100%;
     text-align: center;
     background-color: aquamarine;
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
   }
   .container {
-    width: 700px;
+    width: 500px;
     margin: 0 auto;
   }
   fieldset {
@@ -29,7 +28,7 @@ body {
     border-image-outset: initial;
     border-image-repeat: initial;
     min-width: -webkit-min-content;
-    padding: 30px;
+    padding: 20px;
   }
   .ghost-input, p {
     display: block;
@@ -42,7 +41,7 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #232c38;
+    color: #9aa9bd;
     background: #fff;
     font-family: Open 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,Verdana;
     text-align: center;
@@ -58,21 +57,47 @@ body {
     border-bottom:1px solid #ddd;
   }
   .ghost-button {
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-size: 20px;
+    border-radius: 15px;
     background-color: transparent;
-    border:2px solid #ddd;
-    padding:10px 30px;
-    width: 100%;
-    min-width: 350px;
+    border:1px solid #ddd;
+    box-shadow: 4px 4px 2px;
+    padding:10px 20px;
+    width: 0%;
+    min-width: 300px;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
   }
+
+.ghost-button {
+  opacity: 1;
+}
+.active,
+.ghost-button:hover {
+  opacity: 0.6;
+}
   .ghost-button:hover {
-    border:2px solid #515151;
+    border:1px solid #bdb0b0;
   }
-  p {
-    color: #157218;
-  }
+
+header {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
   
+}
+
+  p {
+    color: #530603;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: black;
+    font-optical-sizing: 15px;
+    text-shadow: black;
+    font-weight: bold;
+  }

@@ -2,11 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Test</title>
+    <title></title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   </head>
   <body>
+
+
+<header>Weather App</header>
+<html>
+    <head>
+      <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+      </script>
+    </head>
+        
+    <body onload="startTime()">
+  
+      <div id="txt">Local Time:</div>
+  
+    </body>
+  </html>
+
     <div class="container">
       <fieldset>
         <form action="/" method="post">
