@@ -1,4 +1,4 @@
-# Website => https://gminova.github.io/weather-app/
+# Website => https://app-get-weather.herokuapp.com/
 
 This is a simple Weather App that works in English done as a joint project following a tutorial linked in the reference at the bottom of this file. The goal is to work as a team and have fun while learning something new.
 
