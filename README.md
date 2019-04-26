@@ -2,6 +2,11 @@
 
 This is a simple Weather App that works in English done as a joint project following a tutorial linked in the reference at the bottom of this file. The goal is to work as a team and have fun while learning something new.
 
+##Team
+
+1. Dergana Minova
+2. Emil Vaklinov
+
 ## Prerequisites
 
 1. OpenWeatherMap.org API
@@ -16,6 +21,11 @@ This is a simple Weather App that works in English done as a joint project follo
 ```
 ```
 2. Display weather 
+```
+
+## Extention
+```
+Real time clock showing the local time of the user.
 ```
 
 ## Reference
