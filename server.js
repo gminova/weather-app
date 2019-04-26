@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express()
+const port = process.env.PORT || 3000;
 
 <<<<<<< HEAD
 /*THE KEY IS WRONG*/
@@ -39,6 +40,6 @@ app.post('/', function (req, res) {
   });
 })
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+app.listen(port, function () {
+  console.log('Example app listening on port!')
 })

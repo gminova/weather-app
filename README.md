@@ -1,6 +1,6 @@
 # Website => https://gminova.github.io/weather-app/
 
-This is a simple Weather App that works in English.  
+This is a simple Weather App that works in English done as a joint project following a tutorial linked in the reference at the bottom of this file. The goal is to work as a team and have fun while learning something new.
 
 ## Prerequisites
 
@@ -20,6 +20,4 @@ This is a simple Weather App that works in English.
 
 ## Reference
 
-```
 https://codeburst.io/build-a-weather-website-in-30-minutes-with-node-js-express-openweather-a317f904897b 
-```
