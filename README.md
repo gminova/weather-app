@@ -2,7 +2,7 @@
 
 This is a simple Weather App that works in Fahrenheit. It was created as a joint project following a tutorial linked in the references below. Our goal was to work as a team and have fun, while learning something new. This app utilises Node JS, Express, a weather API, Scrum, Atom/VisualStudio, Git, and Heroku CI. 
 
-##Team
+## Team
 
 1. Gergana Minova
 2. Emil Vaklinov
