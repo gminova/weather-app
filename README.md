@@ -11,6 +11,7 @@ This is a simple Weather App that works in Fahrenheit. It was created as a joint
 
 1. OpenWeatherMap.org API
 2. Node.js 
+3. Express
 
 ![Alt Text](https://emilvaklinov.github.io/Projects/pictures/weatherapp.png)  
 
