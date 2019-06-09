@@ -28,7 +28,8 @@ app.post('/', function (req, res) {
       if(weather.main == undefined){
         res.render('index', {weather: null, error: 'Error, please try again'});
       } else {
-        let weatherText = `It's ${weather.main.temp} degrees in ${weather.name}!`;
+        let tempInC= (Number(weather.main.temp) - 32)*5/9;
+        let weatherText = `It's ${weather.main.temp} F° (${tempInC.toFixed(1)} C°) in ${weather.name}!`;
         res.render('index', {weather: weatherText, error: null});
       }
     }
