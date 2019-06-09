@@ -37,5 +37,5 @@ app.post('/', function (req, res) {
 
 /*app.listen(3000, function ()*/
 app.listen(port, function () {
-  console.log('Example app listening on port!')
+  console.log(`Example app listening on ${port}!`)
 })
