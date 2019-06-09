@@ -1,11 +1,12 @@
 # Website => https://app-get-weather.herokuapp.com/
 
-This is a simple Weather App that works in Fahrenheit. It was created as a joint project following a tutorial linked in the references below. Our goal was to work as a team and have fun, while learning something new. This app utilises Node JS, Express, a weather API, Scrum, Atom/VisualStudio, Git, and Heroku CI. 
+This is a simple Weather App that works in Fahrenheit and Celsius. It was created as a joint project following a tutorial linked in the references below. Our goal was to work as a team and have fun, while learning something new. This app utilises Node JS, Express, a weather API, Scrum, Atom/VisualStudio, Git, and Heroku CI. 
 
 ## Team
 
-1. Gergana Minova
-2. Emil Vaklinov
+1. Gergana Minova @gminova
+2. Emil Vaklinov @emilvaklinov
+3. Jan Skowronski @crianonim 
 
 ## Prerequisites
 
@@ -13,7 +14,7 @@ This is a simple Weather App that works in Fahrenheit. It was created as a joint
 2. Node.js 
 3. Express
 
-![Alt Text](https://emilvaklinov.github.io/Projects/pictures/weatherapp.png)  
+![Alt Text](https://raw.githubusercontent.com/gminova/weather-app/master/app-demo.png)  
 
 ## Features
 
