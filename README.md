@@ -25,11 +25,6 @@ This is a simple Weather App that works in Fahrenheit and Celsius. It was create
 2. Display weather 
 ```
 
-## Extension
-```
-Real-time clock showing the local time of the user.
-```
-
 ## References
 
 https://codeburst.io/build-a-weather-website-in-30-minutes-with-node-js-express-openweather-a317f904897b 
