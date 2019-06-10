@@ -29,7 +29,7 @@ app.post('/', function (req, res) {
         res.render('index', {weather: null, error: 'Error, please try again'});
       } else {
         let tempInC= (Number(weather.main.temp) - 32)*5/9;
-        let weatherText = `It's ${weather.main.temp} F° (${tempInC.toFixed(1)} C°) in ${weather.name}!`;
+        let weatherText = `It's ${tempInC.toFixed(2)} C°/ ${weather.main.temp} F° in ${weather.name}!`;
         res.render('index', {weather: weatherText, error: null});
       }
     }

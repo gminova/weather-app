@@ -1,57 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
 
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
 
-<header>Weather App</header>
-<html>
-    <head>
-      <script>
-        function startTime() {
-          var today = new Date();
-          var h = today.getHours();
-          var m = today.getMinutes();
-          var s = today.getSeconds();
-          m = checkTime(m);
-          s = checkTime(s);
-          document.getElementById('txt').innerHTML =
-          h + ":" + m + ":" + s;
-          var t = setTimeout(startTime, 500);
-        }
-        function checkTime(i) {
-          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-          return i;
-        }
-      </script>
-    </head>
-        
-    <body onload="startTime()">
-  
-      <div id="txt">Local Time:</div>
-  
-    </body>
-  </html>
+<body>
+  <div class="container">
+    <fieldset>
+      <form action="/" method="post">
+        <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+        <input type="submit" class="ghost-button" value="Get weather">
+      </form>
+      <% if(weather !== null){ %>
+      <p id="temp"><%= weather %></p>
+      <% } %>
 
-    <div class="container">
-      <fieldset>
-        <form action="/" method="post">
-          <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
-          <input type="submit" class="ghost-button" value="Get Weather">
-        </form>
-        <% if(weather !== null){ %>
-          <p><%= weather %></p>
-        <% } %>
-
-        <% if(error !== null){ %>
-          <p><%= error %></p>
-        <% } %>
-      </fieldset>
+      <% if(error !== null){ %>
+      <p><%= error %></p>
+      <% } %>
+    </fieldset>
+    <div class="toggle">
+      <span>F°</span>
+      <label id="toggle" class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
